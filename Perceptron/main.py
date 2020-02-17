@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2020/2/17 16:10
 # @Author  : Xav
-# @File    : classifier.py
+# @File    : main.py
+
 from sklearn.datasets import load_breast_cancer
 from sklearn.model_selection import train_test_split
 from Model import Perceptron
