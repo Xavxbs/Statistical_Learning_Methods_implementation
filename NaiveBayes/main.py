@@ -18,8 +18,8 @@ https://github.com/tushushu/imylu/blob/master/imylu/probability_model/gaussian_n
 训练集数量 120
 测试集数量 30
 -------------------------------
-训练集正确率：61.98%
-测试集正确率：65.79%
+训练集正确率：95.83%
+测试集正确率：93.33%
 '''
 def load_data():
     '''
@@ -27,8 +27,8 @@ def load_data():
     :return: data and labels
     '''
     raw_data = load_iris()
-    data = np.array(raw_data.data)
-    labels = np.array(raw_data.target)
+    data = raw_data.data
+    labels = raw_data.target
     return data, labels
 
 

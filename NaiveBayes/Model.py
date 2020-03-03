@@ -78,6 +78,9 @@ class GaussianNB:
         self.avgs = self._get_avgs(data, label)
         # 计算方差
         self.vars = self._get_vars(data, label)
+        # 计算训练集误差
+        train_acc = self.test(data, label)
+        print(train_acc)
 
     def predict_prob(self, data: ndarray) -> ndarray:
         '''

@@ -23,7 +23,7 @@ def load_data():
     #存放数据及标记
     dataArr = []; labelArr = []
     #读取文件
-    files = ['mnist_train.csv','mnist_test.csv']
+    files = ['../data/mnist_train.csv','../data/mnist_test.csv']
     for file_name in files:
         fr = open(file_name)
         #遍历文件中的每一行
