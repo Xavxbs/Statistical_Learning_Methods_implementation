@@ -8,6 +8,7 @@ from Model import DecisionTree
 import numpy as np
 '''
 决策树id3，未剪枝
+在部分代码中使用了额外的Mnist数据集
 训练集56000
 测试集14000
 测试集的准确率为：86.51%
