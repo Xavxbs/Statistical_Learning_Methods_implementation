@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from Model import DecisionTree
 import numpy as np
 '''
-决策树id3，未剪枝
+决策树id3未剪枝
 在部分代码中使用了额外的Mnist数据集
 训练集56000
 测试集14000
